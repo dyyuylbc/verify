@@ -1,1 +1,0 @@
-{"@context":"https://w3id.org/security/multikey/v1","id":"did:web:github.com:dayongY:testTrustVC#keys-1","type":"Multikey","controller":"did:web:github.com:dayongY:testTrustVC","secretKeyMultibase":"z42tntZ3aAdyr6E9kzAZmgMgDV3yPAqCHZxXm3TaWL4FS63q","publicKeyMultibase":"zDnaeZ1k1mUqWPaK6zD1zG3uvaGATqGNK2hJJraV1gvfeycau"}
