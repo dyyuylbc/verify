@@ -7,20 +7,26 @@
       "@type": "@id",
       "@context": {
         "@protected": true,
-        "billOfLadingName": {
-          "@id": "https://example.com/terms#billOfLadingName"
+        "shipperName": {
+          "@id": "https://example.com/terms#shipperName"
         },
-        "scac": {
-          "@id": "https://example.com/terms#scac"
+        "consigneeName": {
+          "@id": "https://example.com/terms#consigneeName"
+        }, 
+        "billOfLadingNumber": {
+          "@id": "https://example.com/terms#billOfLadingNumber"
         },
-        "blNumber": {
-          "@id": "https://example.com/terms#blNumber"
+        "notifyParty": {
+          "@id": "https://example.com/terms#notifyParty"
         },
-        "vessel": {
-          "@id": "https://example.com/terms#vessel"
+        "preCarriageBy": {
+          "@id": "https://example.com/terms#preCarriageBy"
         },
-        "voyageNo": {
-          "@id": "https://example.com/terms#voyageNo"
+        "placeOfReceipt": {
+          "@id": "https://example.com/terms#placeOfReceipt"
+        },
+        "oceanVesselVoyageNumber": {
+          "@id": "https://example.com/terms#oceanVesselVoyageNumber"
         },
         "portOfLoading": {
           "@id": "https://example.com/terms#portOfLoading"
@@ -28,52 +34,92 @@
         "portOfDischarge": {
           "@id": "https://example.com/terms#portOfDischarge"
         },
-        "carrierName": {
-          "@id": "https://example.com/terms#carrierName"
-        },
-        "placeOfReceipt": {
-          "@id": "https://example.com/terms#placeOfReceipt"
-        },
         "placeOfDelivery": {
           "@id": "https://example.com/terms#placeOfDelivery"
-        },
-        "packages": {
-          "@id": "https://example.com/terms/#packages",
+        }, 
+        "finalDestination": {
+          "@id": "https://example.com/terms#finalDestination"
+        },  
+        "goodsContent": {
+          "@id": "https://example.com/terms/#goodsContent",
           "@container": "@set",
           "@context": {
             "@protected": true,
-            "packagesDescription": {
-              "@id": "https://example.com/terms#packagesDescription"
+            "descriptionOfGoods": {
+              "@id": "https://example.com/terms#descriptionOfGoods"
             },
-            "packagesWeight": {
-              "@id": "https://example.com/terms#packagesWeight"
+            "grossWeightKgs": {
+              "@id": "https://example.com/terms#grossWeightKgs"
             },
-            "packagesMeasurement": {
-              "@id": "https://example.com/terms#packagesMeasurement"
+            "numberOfContainersOrPackages": {
+              "@id": "https://example.com/terms#numberOfContainersOrPackages"
+            },
+            "marksAndNosContainerSealNumber": {
+              "@id": "https://example.com/terms#marksAndNosContainerSealNumber"
+            },
+            "measurement": {
+              "@id": "https://example.com/terms#measurement"
             }
           }
         },
-        "shipperName": {
-          "@id": "https://example.com/terms#shipperName"
+        "totalNumberOfPackagesOrContainers": {
+          "@id": "https://example.com/terms#totalNumberOfPackagesOrContainers"
+        },
+        "freightAndCharges": {
+          "@id": "https://example.com/terms/#freightAndCharges",
+          "@container": "@set",
+          "@context": {
+            "@protected": true,
+            "revenueTons": {
+              "@id": "https://example.com/terms#revenueTons"
+            },
+            "freightAndCharges": {
+              "@id": "https://example.com/terms#freightAndCharges"
+            },
+            "rate": {
+              "@id": "https://example.com/terms#rate"
+            },
+            "prepaid": {
+              "@id": "https://example.com/terms#prepaid"
+            },
+            "per": {
+              "@id": "https://example.com/terms#per"
+            },
+            "collect": {
+              "@id": "https://example.com/terms#collect"
+            }
+          }
+        }, 
+        "exRate": {
+          "@id": "https://example.com/terms#exRate"
+        },
+        "prepaidAt": {
+          "@id": "https://example.com/terms#prepaidAt"
+        },
+        "payableAt": {
+          "@id": "https://example.com/terms#payableAt"
+        },
+        "placeAndDateOfIssue": {
+          "@id": "https://example.com/terms#placeAndDateOfIssue"
+        },
+        "totalPrepaidIn": {
+          "@id": "https://example.com/terms#totalPrepaidIn"
+        }, 
+        "numberOfOriginalBl": {
+          "@id": "https://example.com/terms#numberOfOriginalBl"
         },
         "shipperAddressStreet": {
           "@id": "https://example.com/terms#shipperAddressStreet"
         },
         "shipperAddressCountry": {
           "@id": "https://example.com/terms#shipperAddressCountry"
-        },
-        "consigneeName": {
-          "@id": "https://example.com/terms#consigneeName"
-        },
+        }, 
         "notifyPartyName": {
           "@id": "https://example.com/terms#notifyPartyName"
         },
         "links": {
           "@id": "https://example.com/terms#links"
-        },
-        "prepaidAt": {
-          "@id": "https://example.com/terms#prepaidAt"
-        }
+        }  
       }
     }
   }
