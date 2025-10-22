@@ -41,7 +41,7 @@
           "@id": "https://example.com/terms#finalDestination"
         },  
         "goodsContent": {
-          "@id": "https://example.com/terms/#goodsContent",
+          "@id": "https://example.com/terms#goodsContent",
           "@container": "@set",
           "@context": {
             "@protected": true,
