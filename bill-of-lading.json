@@ -66,7 +66,7 @@
           "@id": "https://example.com/terms#totalNumberOfPackagesOrContainers"
         },
         "freightAndCharges": {
-          "@id": "https://example.com/terms/#freightAndCharges",
+          "@id": "https://example.com/terms#freightAndCharges",
           "@container": "@set",
           "@context": {
             "@protected": true,
