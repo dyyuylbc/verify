@@ -25,8 +25,8 @@
         "placeOfReceipt": {
           "@id": "https://example.com/terms#placeOfReceipt"
         },
-        "oceanVesselVoyageNumber": {
-          "@id": "https://example.com/terms#oceanVesselVoyageNumber"
+        "vesselVoyageNumber": {
+          "@id": "https://example.com/terms#vesselVoyageNumber"
         },
         "portOfLoading": {
           "@id": "https://example.com/terms#portOfLoading"
@@ -40,16 +40,16 @@
         "finalDestination": {
           "@id": "https://example.com/terms#finalDestination"
         },  
-        "goodsContent": {
-          "@id": "https://example.com/terms#goodsContent",
+        "packages": {
+          "@id": "https://example.com/terms#packages",
           "@container": "@set",
           "@context": {
             "@protected": true,
             "descriptionOfGoods": {
               "@id": "https://example.com/terms#descriptionOfGoods"
             },
-            "grossWeightKgs": {
-              "@id": "https://example.com/terms#grossWeightKgs"
+            "weight": {
+              "@id": "https://example.com/terms#weight"
             },
             "numberOfContainersOrPackages": {
               "@id": "https://example.com/terms#numberOfContainersOrPackages"
@@ -65,30 +65,23 @@
         "totalNumberOfPackagesOrContainers": {
           "@id": "https://example.com/terms#totalNumberOfPackagesOrContainers"
         },
-        "freightAndCharges": {
-          "@id": "https://example.com/terms#freightAndCharges",
-          "@container": "@set",
-          "@context": {
-            "@protected": true,
-            "revenueTons": {
-              "@id": "https://example.com/terms#revenueTons"
-            },
-            "freightAndCharges": {
-              "@id": "https://example.com/terms#freightAndCharges"
-            },
-            "rate": {
-              "@id": "https://example.com/terms#rate"
-            },
-            "prepaid": {
-              "@id": "https://example.com/terms#prepaid"
-            },
-            "per": {
-              "@id": "https://example.com/terms#per"
-            },
-            "collect": {
-              "@id": "https://example.com/terms#collect"
-            }
-          }
+        "freightCharges": {
+          "@id": "https://example.com/terms#freightCharges"
+        },
+         "revenueTons": {
+          "@id": "https://example.com/terms#revenueTons"
+        },
+         "rate": {
+          "@id": "https://example.com/terms#rate"
+        },
+         "per": {
+          "@id": "https://example.com/terms#per"
+        },
+         "prepaid": {
+          "@id": "https://example.com/terms#prepaid"
+        },
+         "collect": {
+          "@id": "https://example.com/terms#collect"
         }, 
         "exRate": {
           "@id": "https://example.com/terms#exRate"
@@ -104,10 +97,7 @@
         },
         "totalPrepaidIn": {
           "@id": "https://example.com/terms#totalPrepaidIn"
-        }, 
-        "numberOfOriginalBl": {
-          "@id": "https://example.com/terms#numberOfOriginalBl"
-        },
+        },  
         "shipperAddressStreet": {
           "@id": "https://example.com/terms#shipperAddressStreet"
         },
