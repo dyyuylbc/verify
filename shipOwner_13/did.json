@@ -3,15 +3,15 @@
   "verificationMethod": [
     {
       "type": "Multikey",
-      "id": "did:web:dyyuylbc.github.io:verify#keys-1",
-      "controller": "did:web:dyyuylbc.github.io:verify",
+      "id": "did:web:dyyuylbc.github.io:verify:shipOwner_13#keys-1",
+      "controller": "did:web:dyyuylbc.github.io:verify:shipOwner_13",
       "publicKeyMultibase": "zDnaeuCUfju8dFEu7J85b1szcNS41Rrfz3fqYS5D4zL2zHyqj"
     },
     {
       "type": "Multikey",
-      "id": "did:web:dyyuylbc.github.io:verify#keys-2",
-      "controller": "did:web:dyyuylbc.github.io:verify",
-      "publicKeyMultibase": "zDnaeizpiUoNGqR1AYWWXEQkEs4e74YuewqcgSihrn7xfgzrW"
+      "id": "did:web:dyyuylbc.github.io:verify:shipOwner_13#keys-2",
+      "controller": "did:web:dyyuylbc.github.io:verify:shipOwner_13",
+      "publicKeyMultibase": "zDnaejQuq4pKDmWysHkjii5rkVtg4kFnyUNPB8QbkTCV8jmhv"
     }
   ],
   "@context": [
