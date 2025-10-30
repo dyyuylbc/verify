@@ -12,6 +12,12 @@
       "id": "did:web:dyyuylbc.github.io:verify#keys-2",
       "controller": "did:web:dyyuylbc.github.io:verify",
       "publicKeyMultibase": "zDnaeiHEWTS6hNJDAU3dS8TyWXnuusaefs3dYLnoTE9XwhYPs"
+    },
+    {
+      "type": "Multikey",
+      "id": "did:web:dyyuylbc.github.io:verify#keys-3",
+      "controller": "did:web:dyyuylbc.github.io:verify",
+      "publicKeyMultibase": "zDnaecJL8xmH5AvtLQHRVGZ5j8ynpz2inMLMheAxUeYt9t49J"
     }
   ],
   "@context": [
@@ -20,18 +26,22 @@
   ],
   "authentication": [
     "did:web:dyyuylbc.github.io:verify#keys-1",
-    "did:web:dyyuylbc.github.io:verify#keys-2"
+    "did:web:dyyuylbc.github.io:verify#keys-2",
+    "did:web:dyyuylbc.github.io:verify#keys-3"
   ],
   "assertionMethod": [
     "did:web:dyyuylbc.github.io:verify#keys-1",
-    "did:web:dyyuylbc.github.io:verify#keys-2"
+    "did:web:dyyuylbc.github.io:verify#keys-2",
+    "did:web:dyyuylbc.github.io:verify#keys-3"
   ],
   "capabilityInvocation": [
     "did:web:dyyuylbc.github.io:verify#keys-1",
-    "did:web:dyyuylbc.github.io:verify#keys-2"
+    "did:web:dyyuylbc.github.io:verify#keys-2",
+    "did:web:dyyuylbc.github.io:verify#keys-3"
   ],
   "capabilityDelegation": [
     "did:web:dyyuylbc.github.io:verify#keys-1",
-    "did:web:dyyuylbc.github.io:verify#keys-2"
+    "did:web:dyyuylbc.github.io:verify#keys-2",
+    "did:web:dyyuylbc.github.io:verify#keys-3"
   ]
 }
