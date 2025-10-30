@@ -11,7 +11,7 @@
       "type": "Multikey",
       "id": "did:web:dyyuylbc.github.io:verify#keys-2",
       "controller": "did:web:dyyuylbc.github.io:verify",
-      "publicKeyMultibase": "zDnaez7oEWkZDcTMBP9G7ohik8cVZxEtaiguLkvhewLbJcPPV"
+      "publicKeyMultibase": "zDnaeqneSSw5iDxf3iJmvtSXTqGSi56G7cadVMjKpknxe1tqK"
     }
   ],
   "@context": [
