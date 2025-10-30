@@ -11,7 +11,7 @@
       "type": "Multikey",
       "id": "did:web:dyyuylbc.github.io:verify:shipOwner_13#keys-2",
       "controller": "did:web:dyyuylbc.github.io:verify:shipOwner_13",
-      "publicKeyMultibase": "zDnaejQuq4pKDmWysHkjii5rkVtg4kFnyUNPB8QbkTCV8jmhv"
+      "publicKeyMultibase": "zDnaeyPdhZu68QtA9QYtEn2HhjfxEzfwEpSvVBszVNffebsxh"
     }
   ],
   "@context": [
