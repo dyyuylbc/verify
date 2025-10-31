@@ -1,0 +1,57 @@
+{
+  "id": "did:web:dyyuylbc.github.io:verify:shipOwner_14",
+  "verificationMethod": [
+    {
+      "type": "Multikey",
+      "id": "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-1",
+      "controller": "did:web:dyyuylbc.github.io:verify:shipOwner_14",
+      "publicKeyMultibase": "zDnaeuCUfju8dFEu7J85b1szcNS41Rrfz3fqYS5D4zL2zHyqj"
+    },
+    {
+      "type": "Multikey",
+      "id": "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-2",
+      "controller": "did:web:dyyuylbc.github.io:verify:shipOwner_14",
+      "publicKeyMultibase": "zDnaeiHEWTS6hNJDAU3dS8TyWXnuusaefs3dYLnoTE9XwhYPs"
+    },
+    {
+      "type": "Multikey",
+      "id": "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-3",
+      "controller": "did:web:dyyuylbc.github.io:verify:shipOwner_14",
+      "publicKeyMultibase": "zDnaecJL8xmH5AvtLQHRVGZ5j8ynpz2inMLMheAxUeYt9t49J"
+    },
+    {
+      "type": "Multikey",
+      "id": "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-4",
+      "controller": "did:web:dyyuylbc.github.io:verify:shipOwner_14",
+      "publicKeyMultibase": "zDnaeWjVi3CX9cFDDxdgY2FnuMgutgoQPF47d7EcN1QnrK7vw"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
+  "authentication": [
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-1",
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-2",
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-3",
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-4"
+  ],
+  "assertionMethod": [
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-1",
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-2",
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-3",
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-4"
+  ],
+  "capabilityInvocation": [
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-1",
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-2",
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-3",
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-4"
+  ],
+  "capabilityDelegation": [
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-1",
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-2",
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-3",
+    "did:web:dyyuylbc.github.io:verify:shipOwner_14#keys-4"
+  ]
+}
