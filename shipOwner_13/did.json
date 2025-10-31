@@ -23,7 +23,7 @@
       "type": "Multikey",
       "id": "did:web:dyyuylbc.github.io:verify:shipOwner_13#keys-4",
       "controller": "did:web:dyyuylbc.github.io:verify:shipOwner_13",
-      "publicKeyMultibase": "zDnaeW8YvjYmE4EevtTn7DsMWMDTZYxVikboa9Ft5Ni3kZfgR"
+      "publicKeyMultibase": "zDnaeW8YvjYmE4EevtTn7DsMWMDTZYxVikboa9Ft5Ni3kZfgS"
     }
   ],
   "@context": [
