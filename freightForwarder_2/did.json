@@ -23,7 +23,7 @@
       "type": "Multikey",
       "id": "did:web:dyyuylbc.github.io:verify:freightForwarder_2#keys-4",
       "controller": "did:web:dyyuylbc.github.io:verify:freightForwarder_2",
-      "publicKeyMultibase": "zDnaevsiE1V8SYWckdJ59vpprHTqmc3JyPtfoDtFfqYZqihjR"
+      "publicKeyMultibase": "zDnaenKEkgeJ2p21D6CoXzCUkApBrJm83NdrNtv7CX9dm8mj8"
     }
   ],
   "@context": [
